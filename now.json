@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "routes": [
+        {"src": "/","dest": "dist/index.html"},
+        {"src": "/wb/(.*)","dest": "https://wx1.sinaimg.cn/$1"},
+        {"src": "/jj/(.*)","dest": "https://user-gold-cdn.xitu.io/$1"},
+        {"src": "/qpic/(.*)","dest": "https://qqadapt.qpic.cn/$1"},
+        {"src": "/bili/(.*)","dest": "https://i0.hdslb.com/$1"}
+    ]
+  }
